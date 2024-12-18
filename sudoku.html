@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku - The Curiosity Catalogue</title>
+    <link rel="stylesheet" href="sudoku.css">
+</head>
+<body>
+    <header>
+        <h1>Sudoku Puzzle</h1>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Rules of the Game</h2>
+            <ul>
+                <li><strong>Objective:</strong> Fill each row, column, and 3x3 subgrid with numbers 1–9, ensuring each number appears only once.</li>
+                <li><strong>Hint:</strong> A well-balanced puzzle will have a unique solution, but not too many clues.</li>
+                <li><strong>Difficulty:</strong> Varies by the number of initial clues and their placement. The fewer clues, the harder the puzzle!</li>
+            </ul>
+
+            <h3>Fun Facts</h3>
+            <ul>
+                <li>Did you know there are <strong>6.67 quintillion</strong> possible Sudoku grids?</li>
+                <li>Sudoku puzzles are believed to improve logic, concentration, and even math skills!</li>
+                <li>Originally, Sudoku was published as a number puzzle under the name "Number Place" in 1979.</li>
+            </ul>
+        </section>
+
+        <div id="controls">
+            <button id="restart">Restart Game</button>
+            <label for="difficulty">Difficulty:</label>
+            <select id="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium" selected>Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+        </div>
+        
+        <div id="timer">Time: 00:00</div>
+        
+        <table id="sudoku-grid"></table>
+    </main>
+
+    <footer>
+        <p>© The Curiosity Catalogue - Explore the unknown, one puzzle at a time.</p>
+    </footer>
+
+    <script src="sudoku.js"></script>
+</body>
+</html>
