@@ -25,4 +25,4 @@ To run this project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/sudoku-puzzle.git
+   git clone https:/LucifersBossyCat/github.com//sudoku-puzzle.git
