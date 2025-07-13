@@ -1,28 +1,19 @@
-# Sudoku Puzzle - The Curiosity Catalogue
+# Sudoku Puzzle
 
 ## Overview
 
-This is a dynamic, interactive Sudoku puzzle embedded within *The Curiosity Catalogue*—a space to explore various intellectual interests. This project features a beautifully styled Sudoku game, designed for both casual and experienced players. The game lets users choose their preferred difficulty (Easy, Medium, Hard) and offers an engaging user experience with smooth animations, a live timer, and validation for inputs.
+A web-based Sudoku game built for desktop and mobile browsers. It supports multiple difficulty levels, real-time input validation, and includes a basic timer. Built with plain HTML, CSS, and JavaScript — no frameworks or libraries.
 
 ## Features
 
-- **Sudoku Grid**: A 9x9 grid where players fill in numbers from 1 to 9.
-- **Input Validation**: Real-time feedback on input correctness, with color changes to indicate correct or incorrect answers.
-- **Dynamic Timer**: A timer that tracks the time taken to solve the puzzle.
-- **Difficulty Levels**: Choose between Easy, Medium, and Hard puzzles.
-- **Responsive Design**: A mobile-friendly interface that adjusts seamlessly to various screen sizes.
-- **Interactive Design**: UI with hover effects, pop-up tooltips, and more for an immersive experience.
+- **9x9 Sudoku Grid** with number input from 1 to 9.
+- **Input Validation**: Immediate feedback on correct or incorrect entries.
+- **Timer**: Tracks elapsed time during gameplay.
+- **Difficulty Modes**: Easy, Medium, and Hard puzzle generation.
+- **Responsive Layout**: Adjusts to fit various screen sizes.
 
-## Technologies Used
+## Tech Stack
 
-- **HTML**: Structure of the webpage, including the grid and controls.
-- **CSS**: Styling for the game, utilizing a dark academia aesthetic with unique hover effects, shadows, and animations.
-- **JavaScript**: Game logic, grid generation, input validation, timer functionality, and interactivity.
-
-## Installation
-
-To run this project locally:
-
-1. Clone the repository:
-   ```bash
-   git clone https:/LucifersBossyCat/github.com//sudoku-puzzle.git
+- **HTML**: Page structure and interface layout.
+- **CSS**: Basic styling and responsive behavior.
+- **JavaScript**: Core game logic, puzzle generation, user input handling, and timer.
