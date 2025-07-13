@@ -2,18 +2,25 @@
 
 ## Overview
 
-A web-based Sudoku game built for desktop and mobile browsers. It supports multiple difficulty levels, real-time input validation, and includes a basic timer. Built with plain HTML, CSS, and JavaScript — no frameworks or libraries.
+A fully responsive, browser-based Sudoku game built using HTML, CSS, and JavaScript. The game features real-time input validation, a built-in timer, logic-based difficulty generation, and a soft and intuitive user interface. 
 
 ## Features
 
-- **9x9 Sudoku Grid** with number input from 1 to 9.
-- **Input Validation**: Immediate feedback on correct or incorrect entries.
-- **Timer**: Tracks elapsed time during gameplay.
-- **Difficulty Modes**: Easy, Medium, and Hard puzzle generation.
-- **Responsive Layout**: Adjusts to fit various screen sizes.
+- **9×9 Interactive Grid**: Classic Sudoku layout with number input support (1–9).
+- **Real-Time Input Validation**: Immediate visual feedback for valid and invalid entries.
+- **Mistake Counter**: Tracks incorrect attempts as the game progresses.
+- **Hint System**: Automatically fills one correct number into an empty cell.
+- **Win Detection**: Validates complete board and triggers endgame modal.
+- **Modal Popup**: Custom-styled message upon puzzle completion.
+- **Timer**: Tracks total time spent on the current puzzle.
+- **Difficulty Levels**: Choose from Easy, Medium, or Hard — each generated based on actual solving logic (e.g. singles, hidden patterns).
+- **Emoji Difficulty Badge**: Displays difficulty selection with a friendly visual cue.
+- **Responsive Design**: Optimized for both desktop and mobile screens.
 
 ## Tech Stack
 
-- **HTML**: Page structure and interface layout.
-- **CSS**: Basic styling and responsive behavior.
-- **JavaScript**: Core game logic, puzzle generation, user input handling, and timer.
+| Layer       | Technology Used       |
+|-------------|------------------------|
+| Structure   | HTML5                  |
+| Styling     | CSS3 (Flexbox, Media Queries) |
+| Logic       | Vanilla JavaScript     |
