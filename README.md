@@ -4,6 +4,9 @@
 
 A fully responsive, browser-based Sudoku game built using HTML, CSS, and JavaScript. The game features real-time input validation, a built-in timer, logic-based difficulty generation, and a soft and intuitive user interface. 
 
+## Live at
+https://lucifersbossycat.github.io/Sudoku/
+
 ## Features
 
 - **9×9 Interactive Grid**: Classic Sudoku layout with number input support (1–9).
